@@ -1,10 +1,10 @@
 # Lego Rock
 
-Rock for lego that includes all its necessary plugins.
+Rock for [lego](https://go-acme.github.io/lego/).
 
 ## Usage
 
 ```bash
-docker pull ghcr.io/gruyaume/lego:0.27.0
-docker run -it ghcr.io/gruyaume/lego:0.27.0
+docker pull ghcr.io/gruyaume/lego:4.9.0
+docker run -it ghcr.io/gruyaume/lego:4.9.0
 ```
