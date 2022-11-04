@@ -19,7 +19,7 @@ parts:
     source-type: git
     source-tag: v4.9.0
     stage-packages:
-      - libc6
-      - ca-certificates
+      - libc6_libs
+      - ca-certificates_data
     build-environment:
       - GO111MODULE: "on"
