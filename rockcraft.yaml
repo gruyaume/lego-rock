@@ -19,6 +19,7 @@ parts:
     source-type: git
     source-tag: v4.9.0
     stage-packages:
-      - bash
+      - libc6
+      - ca-certificates
     build-environment:
       - GO111MODULE: "on"
